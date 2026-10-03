@@ -1,0 +1,125 @@
+[
+  {
+    "id": "3486ff46-6af1-4ff6-a254-aedd03a701ea",
+    "customer_name": "test1",
+    "seats": 10,
+    "currency": "USD",
+    "lines": [
+      {
+        "sku": "AGENT-CORE",
+        "name": "Agent Core",
+        "quantity": 76,
+        "unit_price": 120,
+        "line_total": 9120
+      },
+      {
+        "sku": "AGENT-ANALYTICS",
+        "name": "Agent Analytics",
+        "quantity": 1,
+        "unit_price": 80,
+        "line_total": 80
+      }
+    ],
+    "discount_pct": 10,
+    "annual_commitment": false,
+    "calculation": {
+      "tier": "GROWTH",
+      "max_discount_pct": 20,
+      "subtotal": 9200,
+      "discount_amount": 920,
+      "total": 8280,
+      "approval_required": false,
+      "approval_reasons": [],
+      "explanation": "10 seats → GROWTH tier → maximum discount 20%. Subtotal $9,200.00 → 10% discount ($920.00) → final $8,280.00. Approval is not required under the current rules."
+    },
+    "status": "approved",
+    "created_at": "2026-10-03T04:06:34.212Z",
+    "updated_at": "2026-10-03T04:06:50.762Z",
+    "history": [
+      {
+        "status": "draft",
+        "at": "2026-10-03T04:06:34.212Z"
+      },
+      {
+        "status": "submitted",
+        "at": "2026-10-03T04:06:48.179Z"
+      },
+      {
+        "status": "approved",
+        "at": "2026-10-03T04:06:50.762Z"
+      }
+    ]
+  },
+  {
+    "id": "988ec5f1-70b7-4e35-bc1c-1d71e7caadc6",
+    "customer_name": "test2",
+    "seats": 100,
+    "currency": "USD",
+    "lines": [
+      {
+        "sku": "AGENT-CORE",
+        "name": "Agent Core",
+        "quantity": 10,
+        "unit_price": 120,
+        "line_total": 1200
+      }
+    ],
+    "discount_pct": 10,
+    "annual_commitment": false,
+    "calculation": {
+      "tier": "ENTERPRISE",
+      "max_discount_pct": 30,
+      "subtotal": 1200,
+      "discount_amount": 120,
+      "total": 1080,
+      "approval_required": false,
+      "approval_reasons": [],
+      "explanation": "100 seats → ENTERPRISE tier → maximum discount 30%. Subtotal $1,200.00 → 10% discount ($120.00) → final $1,080.00. Approval is not required under the current rules."
+    },
+    "status": "draft",
+    "created_at": "2026-10-03T17:18:46.813Z",
+    "updated_at": "2026-10-03T17:18:46.813Z",
+    "history": [
+      {
+        "status": "draft",
+        "at": "2026-10-03T17:18:46.813Z"
+      }
+    ]
+  },
+  {
+    "id": "8ae281cc-7b0f-4c0d-b856-b6a8bc0900fa",
+    "customer_name": "test2",
+    "seats": 100,
+    "currency": "USD",
+    "lines": [
+      {
+        "sku": "AGENT-CORE",
+        "name": "Agent Core",
+        "quantity": 10,
+        "unit_price": 120,
+        "line_total": 1200
+      }
+    ],
+    "discount_pct": 10,
+    "annual_commitment": false,
+    "calculation": {
+      "tier": "ENTERPRISE",
+      "max_discount_pct": 30,
+      "subtotal": 1200,
+      "discount_amount": 120,
+      "total": 1080,
+      "approval_required": false,
+      "approval_reasons": [],
+      "explanation": "100 seats → ENTERPRISE tier → maximum discount 30%. Subtotal $1,200.00 → 10% discount ($120.00) → final $1,080.00. Approval is not required under the current rules."
+    },
+    "status": "draft",
+    "created_at": "2026-10-03T17:20:52.724Z",
+    "updated_at": "2026-10-03T17:20:52.724Z",
+    "history": [
+      {
+        "status": "draft",
+        "at": "2026-10-03T17:20:52.724Z"
+      }
+    ]
+  }
+]
