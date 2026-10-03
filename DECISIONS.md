@@ -3,7 +3,7 @@
 ## 1. Backend technology choice
 
 > **Important note:**
-   Before you getting surprised and getting into code I want to tell you that I have used express for backend. 
+   Before you get surprised and start diving into code I want to tell you that I have used express for backend. 
    Yes I did read the instructions not once not twice 3 times. Since this thing was mentioned 
 
   `  We are not scoring visual polish. ` 
